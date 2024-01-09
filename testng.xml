@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="BushSoc.testcases.Contact_Us"/>
+      <class name="BushSoc.testcases.Members_Investment_Offer"/>
+      <class name="BushSoc.testcases.FAQS"/>
+      <class name="BushSoc.testcases.KeyFeatures"/>
+      <class name="BushSoc.testcases.Dashboard"/>
+      <class name="BushSoc.testcases.Testimonials"/>
+      <class name="BushSoc.testcases.CompanyValue"/>
+      <class name="BushSoc.testcases.MemberOffers"/>
+      <class name="BushSoc.testcases.Donate_for_Bushido"/>
+      <class name="BushSoc.testcases.Membership_Benefits"/>
+      <class name="BushSoc.testcases.Footer_SocialMediaIcons"/>
+      <class name="BushSoc.testcases.About_Us"/>
+      <class name="BushSoc.testcases.Download"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
