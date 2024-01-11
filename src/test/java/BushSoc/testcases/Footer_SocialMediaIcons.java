@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Footer_SocialMediaIcons extends BaseClass
 {
-	@Test
+	@Test(groups= {"FooterSocialMediaIcons"})
 	public void click() throws InterruptedException
 	{
 		wait=new WebDriverWait(driver,Duration.ofSeconds(80));

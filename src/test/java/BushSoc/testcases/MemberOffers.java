@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class MemberOffers extends BaseClass
 {
-	@Test
+	@Test(groups= {"MemberOffers"})
 	public void Offers() 
 	{
 		

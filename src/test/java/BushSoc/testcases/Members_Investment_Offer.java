@@ -14,8 +14,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Members_Investment_Offer extends BaseClass
 {
+	@Test(groups= {"MembersInvestmentOffer"})
 	@Parameters({"FirstName","MiddleName","LastName","Email","Address","Postcode"})
-	@Test
+	
 	public void Form(@Optional ("Shital")String FirstName, @Optional ("Jaywant") String MiddleName, @Optional("Khot")String LastName, @Optional("shital.khot@geeconsystems.com") String Email,@Optional("Andheri")String Address,@Optional("400093")String Postcode) throws InterruptedException
 	{
 		wait=new WebDriverWait(driver,Duration.ofSeconds(80));

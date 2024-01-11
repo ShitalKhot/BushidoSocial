@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class FAQS extends BaseClass
 {
-	@Test
+	@Test(groups= {"FAQS"})
 	public void click (){
 		By Faqs=By.xpath("//*[text()='FAQs']");
 		driver.findElement(Faqs).click();

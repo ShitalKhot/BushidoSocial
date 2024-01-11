@@ -11,7 +11,8 @@ import BushSoc.Utilities.Utilities;
 
 public class About_Us extends BaseClass 
 {
-	@Test
+	@Test (groups={"About_Us"})
+	
 	public void click() throws InterruptedException 
 	{
 		wait = new WebDriverWait(driver,Duration.ofSeconds(100));

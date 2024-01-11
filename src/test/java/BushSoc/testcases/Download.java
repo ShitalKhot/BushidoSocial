@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Download extends BaseClass
 {
-	@Test
+	@Test(groups= {"Download"})
 	public void downloadPDF ()
 	{
 		By download=By.xpath("//*[text()='DOWNLOAD ']");

@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class Dashboard extends BaseClass {
 	
-	@Test
+	@Test(groups={"Dashboard"})
 	public void click() throws InterruptedException
 	{
 		By DASHBOARD=By.xpath("//*[text()='Dashboard']");

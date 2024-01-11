@@ -83,7 +83,7 @@ public class Contact_Us extends BaseClass
 			 By Submitbutton = By.id("submit_new");
 		     By successtext = By.xpath("//*[text()='Your details saved successfully will connect you shortly !!!!!']");
 			 By closebutton = By.xpath("(//*[text()='Close'])[1]");
-			 
+			
 			 wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(contactUsbutton));
 			 driver.findElement(contactUsbutton).click();
 			

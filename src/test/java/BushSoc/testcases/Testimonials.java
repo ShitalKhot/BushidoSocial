@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Testimonials extends BaseClass
 {
-	@Test
+	@Test(groups= {"Testimonials"})
 	public void click()
 	{
 		By TESTIMONIALS = By.xpath("(//*[text()='Testimonials'])[1]");

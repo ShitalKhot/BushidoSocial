@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 
 public class KeyFeatures extends BaseClass
 {
-	@Test
+	@Test(groups= {"KeyFeatures"})
 	public void click() throws InterruptedException
 	{
 		wait=new WebDriverWait(driver,Duration.ofSeconds(80));

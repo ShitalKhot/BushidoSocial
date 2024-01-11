@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class Donate_for_Bushido extends BaseClass
 {
-	@Test
+	@Test(groups= {"DonateForBushido"})
 	public void click()
 	{
 		By Donate_Button=By.xpath("(//*[text()='DONATE FOR BUSHIDO'])[1]");
