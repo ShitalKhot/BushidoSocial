@@ -27,7 +27,7 @@ public static WebDriver driver;
 public static WebDriverWait wait;
 
 @Parameters({"env","username","password"})
-@BeforeClass(groups={"All"})
+@BeforeClass(groups={"All", "Contact_Us","Members_Investment_Offer","FAQS","KeyFeatures","Dashboard","Testimonials","CompanyValue","MemberOffers","Donate_for_Bushido","Membership_Benefits","Footer_SocialMediaIcons","About_Us","Download"})
 public static void setup(@Optional("live")String env,@Optional ("prachi.gurav1@geeconsystems.com") String username, @Optional ("Abc@123") String password)
 {
 	try {
@@ -81,7 +81,7 @@ public static void setup(@Optional("live")String env,@Optional ("prachi.gurav1@g
 
 }
 
-@AfterClass
+@AfterClass (groups={"All", "Contact_Us","Members_Investment_Offer","FAQS","KeyFeatures","Dashboard","Testimonials","CompanyValue","MemberOffers","Donate_for_Bushido","Membership_Benefits","Footer_SocialMediaIcons","About_Us","Download"})
 public void close() throws InterruptedException
 {
 
