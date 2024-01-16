@@ -14,15 +14,15 @@
       <![CDATA[********Browser Session End********]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-11T11:09:52 IST" name="Default suite" finished-at="2024-01-11T11:10:35 IST" duration-ms="43333">
+  <suite started-at="2024-01-16T15:34:44 IST" name="Default suite" finished-at="2024-01-16T15:35:30 IST" duration-ms="46604">
     <groups>
-      <group name="MembersInvestmentOffer">
-        <method signature="Members_Investment_Offer.Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BushSoc.testcases.Members_Investment_Offer@7cc0cdad]" name="Form" class="BushSoc.testcases.Members_Investment_Offer"/>
-      </group> <!-- MembersInvestmentOffer -->
+      <group name="About_Us">
+        <method signature="About_Us.click()[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" name="click" class="BushSoc.testcases.About_Us"/>
+      </group> <!-- About_Us -->
     </groups>
-    <test started-at="2024-01-11T11:09:52 IST" name="Default test" finished-at="2024-01-11T11:10:35 IST" duration-ms="43333">
-      <class name="BushSoc.testcases.Members_Investment_Offer">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BushSoc.testcases.Members_Investment_Offer@7cc0cdad]" started-at="2024-01-11T11:09:52 IST" name="setup" finished-at="2024-01-11T11:10:18 IST" duration-ms="26353" status="PASS">
+    <test started-at="2024-01-16T15:34:44 IST" name="Default test" finished-at="2024-01-16T15:35:30 IST" duration-ms="46604">
+      <class name="BushSoc.testcases.About_Us">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" started-at="2024-01-16T15:34:44 IST" name="setup" finished-at="2024-01-16T15:35:04 IST" duration-ms="20597" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,50 +52,18 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="Form(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BushSoc.testcases.Members_Investment_Offer@7cc0cdad]" started-at="2024-01-11T11:10:19 IST" name="Form" finished-at="2024-01-11T11:10:27 IST" duration-ms="8711" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shital]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jaywant]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Khot]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[shital.khot@geeconsystems.com]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Andheri]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[400093]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="click()[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" started-at="2024-01-16T15:35:04 IST" name="click" finished-at="2024-01-16T15:35:22 IST" duration-ms="17506" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Form -->
-        <test-method is-config="true" signature="close()[pri:0, instance:BushSoc.testcases.Members_Investment_Offer@7cc0cdad]" started-at="2024-01-11T11:10:27 IST" name="close" finished-at="2024-01-11T11:10:35 IST" duration-ms="8177" status="PASS">
+        </test-method> <!-- click -->
+        <test-method is-config="true" signature="close()[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" started-at="2024-01-16T15:35:22 IST" name="close" finished-at="2024-01-16T15:35:30 IST" duration-ms="8408" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[********Browser Session End********]]>
             </line>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- BushSoc.testcases.Members_Investment_Offer -->
+      </class> <!-- BushSoc.testcases.About_Us -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
