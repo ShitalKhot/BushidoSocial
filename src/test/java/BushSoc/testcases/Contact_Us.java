@@ -67,7 +67,7 @@ public class Contact_Us extends BaseClass
 	}*/
 	
 	@Parameters({"firstName","lastName","businessName","email","mobile","telephone","reason"})
-	@Test
+	@Test(groups={"Contact_Us"})
 	public void Form(@Optional("Shital") String firstName,@Optional("Khot")String lastName,@Optional("AbcXyz") String businessName,@Optional ("prachig@ymail.com") String email,@Optional ("9999999999") String mobile,@Optional ("0222658245")String telephone,@Optional ("Testing") String reason) throws InterruptedException
 	{
 		
