@@ -18,7 +18,7 @@ public class KeyFeatures extends BaseClass
 		By keyfeatursbutton =By.xpath("//*[text()='KEY FEATURES']");
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(keyfeatursbutton));
 		driver.findElement(keyfeatursbutton).click();
-		//Reporter.log("**********Key Features page load***********",true);
+		Reporter.log("**********Key Features page load***********",true);
 		
 	}
 	

@@ -2,6 +2,7 @@ package BushSoc.testcases;
 
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Dashboard extends BaseClass {
@@ -23,6 +24,7 @@ public class Dashboard extends BaseClass {
 		driver.findElement(SUBMIT).click();
 		By successtext=By.xpath("//*[text()='Shital updated in My Security Details']");//****
 		By Close_Button=By.xpath("(//*[text()='Close'])[1]");
+		Reporter.log("********Dashboard Session End********", true);
 		
 		try {
 			String actualtext=driver.findElement(successtext).getText();

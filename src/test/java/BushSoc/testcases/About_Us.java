@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import BushSoc.Utilities.Utilities;
@@ -67,6 +68,7 @@ public class About_Us extends BaseClass
 		
 		driver.findElement(By.xpath("//*[text()='bushido gpdr policy']")).click();
 		Utilities.hardWait(5);
+		Reporter.log("********About Us Session End********", true);
 		
 	}
 	

@@ -6,6 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -110,6 +111,7 @@ public class Contact_Us extends BaseClass
 			 
 			 wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(Submitbutton));
 			 driver.findElement(Submitbutton).click();
+			 Reporter.log("********Contact Us Session End********", true);
 			 
 			 try {
 				 Thread.sleep(3000);

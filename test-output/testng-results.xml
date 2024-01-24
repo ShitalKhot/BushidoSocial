@@ -11,18 +11,21 @@
       <![CDATA[**********click button***********]]>
     </line>
     <line>
+      <![CDATA[********About Us Session End********]]>
+    </line>
+    <line>
       <![CDATA[********Browser Session End********]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-01-17T12:26:22 IST" name="Default suite" finished-at="2024-01-17T12:26:55 IST" duration-ms="32773">
+  <suite started-at="2024-01-24T13:50:54 IST" name="Default suite" finished-at="2024-01-24T13:52:15 IST" duration-ms="81035">
     <groups>
-      <group name="DonateForBushido">
-        <method signature="Donate_for_Bushido.click()[pri:0, instance:BushSoc.testcases.Donate_for_Bushido@7cc0cdad]" name="click" class="BushSoc.testcases.Donate_for_Bushido"/>
-      </group> <!-- DonateForBushido -->
+      <group name="About_Us">
+        <method signature="About_Us.click()[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" name="click" class="BushSoc.testcases.About_Us"/>
+      </group> <!-- About_Us -->
     </groups>
-    <test started-at="2024-01-17T12:26:22 IST" name="Default test" finished-at="2024-01-17T12:26:55 IST" duration-ms="32773">
-      <class name="BushSoc.testcases.Donate_for_Bushido">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BushSoc.testcases.Donate_for_Bushido@7cc0cdad]" started-at="2024-01-17T12:26:23 IST" name="setup" finished-at="2024-01-17T12:26:48 IST" duration-ms="25219" status="PASS">
+    <test started-at="2024-01-24T13:50:54 IST" name="Default test" finished-at="2024-01-24T13:52:15 IST" duration-ms="81035">
+      <class name="BushSoc.testcases.About_Us">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" started-at="2024-01-24T13:50:54 IST" name="setup" finished-at="2024-01-24T13:51:51 IST" duration-ms="57376" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -52,18 +55,21 @@
             </line>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="click()[pri:0, instance:BushSoc.testcases.Donate_for_Bushido@7cc0cdad]" started-at="2024-01-17T12:26:48 IST" name="click" finished-at="2024-01-17T12:26:48 IST" duration-ms="65" status="PASS">
+        <test-method signature="click()[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" started-at="2024-01-24T13:51:51 IST" name="click" finished-at="2024-01-24T13:52:07 IST" duration-ms="15824" status="PASS">
           <reporter-output>
+            <line>
+              <![CDATA[********About Us Session End********]]>
+            </line>
           </reporter-output>
         </test-method> <!-- click -->
-        <test-method is-config="true" signature="close()[pri:0, instance:BushSoc.testcases.Donate_for_Bushido@7cc0cdad]" started-at="2024-01-17T12:26:48 IST" name="close" finished-at="2024-01-17T12:26:55 IST" duration-ms="7438" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:BushSoc.testcases.About_Us@7cc0cdad]" started-at="2024-01-24T13:52:07 IST" name="close" finished-at="2024-01-24T13:52:15 IST" duration-ms="7750" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[********Browser Session End********]]>
             </line>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- BushSoc.testcases.Donate_for_Bushido -->
+      </class> <!-- BushSoc.testcases.About_Us -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

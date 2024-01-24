@@ -4,6 +4,7 @@ import java.time.Duration;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.testng.Reporter;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -59,6 +60,7 @@ public class Members_Investment_Offer extends BaseClass
 
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(PAYMENT));		
 		driver.findElement(PAYMENT).click();
+		Reporter.log("**********Members Investment Offer page load***********",true);
 
 		
 		

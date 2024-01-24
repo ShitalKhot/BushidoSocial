@@ -5,6 +5,7 @@ import java.time.Duration;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Footer_SocialMediaIcons extends BaseClass
@@ -33,6 +34,7 @@ public class Footer_SocialMediaIcons extends BaseClass
 		
 		wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(Twitter));
 		driver.findElement(Twitter).click();
+		Reporter.log("********Footer Social Media Icons Session End********", true);
 		
 	}
 }

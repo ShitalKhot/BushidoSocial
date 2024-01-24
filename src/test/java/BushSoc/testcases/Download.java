@@ -1,6 +1,7 @@
 package BushSoc.testcases;
 
 import org.openqa.selenium.By;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 public class Download extends BaseClass
@@ -15,6 +16,7 @@ public class Download extends BaseClass
 		//driver.getCurrentUrl("https://www.bushidosocialimpactcic.org/");
 		By Getting_Started=By.xpath("//*[text()='Getting Started']");
 		driver.findElement(Getting_Started).click();
+		Reporter.log("********DOWNLOAD Session End********", true);
 		
 	}
 
