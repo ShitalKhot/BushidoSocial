@@ -37,7 +37,7 @@ public static void setup(@Optional("live")String env,@Optional ("prachi.gurav1@g
 		WebDriverManager.chromedriver().setup();
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--remote-allow-origins=*");
-		options.addArguments("--headless");
+		//options.addArguments("--headless");
 		driver = new ChromeDriver (options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
